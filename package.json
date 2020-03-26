@@ -1,0 +1,26 @@
+{
+  "name": "sopi",
+  "version": "1.4.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "bin": {
+    "sopi": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esafirm/sopi"
+  },
+  "author": "@esafirm",
+  "license": "MIT",
+  "dependencies": {
+    "@types/request": "^2.47.1",
+    "base32": "0.0.6",
+    "cheerio": "^1.0.0-rc.2",
+    "commander": "^2.15.1",
+    "request": "^2.87.0"
+  }
+}
